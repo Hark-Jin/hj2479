@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"About\"\n---\n\n### About this site\n\nSometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. \n\nIf this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.",
+    "created" : 1509067053216.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2763228746",
+    "id" : "A4AB3203",
+    "lastKnownWriteTime" : 1508348522,
+    "last_content_update" : 1508348522,
+    "path" : "~/Desktop/Columbia/Semester 1/DATA SCIENCE - 1/homework/p8105_hw4_hj2479_p3/about.Rmd",
+    "project_path" : "about.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
