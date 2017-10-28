@@ -4,21 +4,21 @@ author: "He Jin"
 date: "10/25/2017"
 ---
 
-### I have a webpage!
+### This is He Jin's webiste!
 
-And I can put all kinds of stuff on it!
+Please have a look 
+This [about page](about.html) introduce something about me
 
 ### Let's have a link
 
 My favorite website is 
-[Baidu](http://www.baidu.com)
-
-I like the [about page](about.html)
+[Baidu](http://www.baidu.com),
+which is the **Google** in China
 
 ### Here's a puppy:
 
 <img src="./IMG_7210.jpg" style="width:75%">
 
-I love this puppy.
+I love this puppy. It's so cute!
 
 

@@ -2,8 +2,58 @@
 title: "About"
 ---
 
-### About this site
+# About He Jin
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+### Education background
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+**Master of Science, Columbia University, Mailman School of Public Health, New York**   
+Major: Biostatisitcs (Theory & Methods track)  
+**Bachelor of Science, Shanghai Jiao Tong University (SJTU), Shanghai, China**  
+Major: Pharmacy, Minor: Musicology; GPA: 3.52/4.0
+
+### Research Experience
+
+**Risk assessment of cancer based on the phosphorylation of specific protein**  
+Dept. of Bioinformatics & Biostatistics, School of Life Science & Biotechnology, SJTU, China  
+* Strategized on best usage of distance correlation model; Assessed model fit for research question  
+* Extracted phosphorylated protein and cancer data from different databases  
+* Applied distance correlation model to the data in R and cooperatively analyzed descriptive results
+
+**R package for detecting differential modules from High-throughput expression profiles**   
+Dept. of Bioinformatics & Biostatistics, School of Life Science & Biotechnology, SJTU, China\
+* Trained in advanced use of R to implement biological network module-based model  
+* Formulated an R package to effectively combine models from different biological pathways
+
+**LAMP-SERS on microfluidic chips (Team leader)**                                       
+Microfluidics Laboratory, University of Illinois at Chicago, United States  
+* Designed investigational project based on knowledge of microfluidics, loop-mediated isothermal  amplification(LAMP), gold-nanoprobe, and surface-enhanced Raman spectroscopy (SERS)  
+* Prepared gold-nanoprobe and LAMP experiments in collaboration with research team  
+* Analyzed experiment data obtained from SERS
+
+**Meta-analysis based on mult-regression model for combing GWAS data**  
+Bio-X Institutes, SJTU, China  
+* Revised Meta-analysis methodology utilizing principles from multiple regression model and multivariate generalized least squares estimation  
+*	Conducted genome-wide association study(GWAS) data analysis using the improved method 
+
+### Internship Experience
+
+**PTA, IlluminStrategy, Illuminera, Shanghai, China**  
+* Conducted target data collection thorugh literature research and depth interviews of physicians  
+* Preformed data proceesing and analysiscontribute to the final report and presentation of each project
+
+**Intern, Life Science Dept., GE Healthcare, Shanghai, China**  
+* Familiarized with protein purification process; Practiced operating purification instrument (ÄKTA™ pure)  
+* Performed analysis on protein data extracted from the ÄKTA™ pure
+
+### Leadership Experience
+
+**Principal Trombone**, Columbia Univserivty Symphony Orchestra, Columbia University  
+**Vice President**, Work-study Dept., School Library, SJTU, China  
+**Arts and Sports Director**, School of Pharmacy, SJTU, China
+
+### Personal Skills  
+Data analysis and programming software: **SAS, R, MATLAB, SPSS and Python(in learing)**  
+Proficient in Microsoft package Languages: Mandarin (native) and English (fluent verbal and written)
+
+
+
