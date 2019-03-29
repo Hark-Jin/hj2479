@@ -1,7 +1,5 @@
 ---
-title: "He Jin's website!"
-author: "He Jin"
-date: "10/25/2017"
+title: "He Jin!"
 ---
 
 ### This is He Jin's webiste!
