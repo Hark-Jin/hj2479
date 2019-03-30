@@ -1,59 +1,74 @@
 ---
-title: "About"
+title: "Resume"
+output:
+  html_document
 ---
 
-# About He Jin
+## Education
 
-### Education background
+**Master of Science, Columbia University, Mailman School of Public Health, New York, NY, 2019**   
+Major: Biostatisitcs (Theory & Methods track); GPA: 3.75/4.0  
 
-**Master of Science, Columbia University, Mailman School of Public Health, New York**   
-Major: Biostatisitcs (Theory & Methods track)  
-**Bachelor of Science, Shanghai Jiao Tong University (SJTU), Shanghai, China**  
-Major: Pharmacy, Minor: Musicology; GPA: 3.52/4.0
+**Bachelor of Science, Shanghai Jiao Tong University (SJTU), Shanghai, China, 2017**  
+Major: Pharmacy, Minor: Musicology; GPA: 3.52/4.0  
+  
+  
+## Professional Experience 
 
-### Research Experience
+**Research Assistant – Data Analyst, School of Nursing, Columbia University, New York, NY**  
+  
+* Utilized descriptive statistics and statistical models in analyzing survey and CMS (Medicaid & Medicare) data using SAS & STATA
+* Streamlined and improved performance and accuracy of questionnaire using factor analysis(EFA, CFA) and IRT (Item Response Theory) model
+* Summarized exhibits, tables and figures in Excel using Pivot Tables and prepared the final paper for review
+* Recognized for formatting 20+ research papers in alignment with APA, AMA and Chicago Manual of Style guidelines 
+* Served as a main contributor in drafting protocols for data collection and data processing methods and collaborated with other researchers on data management, statistical analysis plan (SAP) and manuscript preparation  
+  
+**Modeling Analyst Intern, BroadRiver Asset Management, L.P., New York, NY**  
 
-**Risk assessment of cancer based on the phosphorylation of specific protein**  
-Dept. of Bioinformatics & Biostatistics, School of Life Science & Biotechnology, SJTU, China  
-* Strategized on best usage of distance correlation model; Assessed model fit for research question  
-* Extracted phosphorylated protein and cancer data from different databases  
-* Applied distance correlation model to the data in R and cooperatively analyzed descriptive results
+* Expertly supported a project team of 7 to develop a medical questionnaire using qualitative and quantitative methods
+* Conducted literature review of 122 articles on long-term mortality of seniors based on certain diseases & lifestyles and designed 327 questions with supporting scoring algorithm to estimate the survival rate of insured client in Python
+* Managed and optimized large-scale life settlement dataset to track client outcomes and build portfolio efficiently
+* Manipulated and analyzed third-party underwriting data to facilitate strategic decision and save cost for the firm  
+* Skillfully performed survival modeling to identify differences between clients’ self-reported and actual health status  
+  
+**Assistant Analyst, IlluminHealth, The Illuminera Group, Shanghai, China**  
+  
+* Conducted target data collection routinely through literature and database in each internal and external project  
+* Synthesized different types of data (continuous & categorical) and performed data analysis using Excel with VBA  
+* Assisted the final report and presentation of different market research projects by designing PowerPoint slides
+* Drafted questionnaires to ensure alignment with customized requirements of multiple clients from various healthcare companies while participated in the in-depth interviews with 5+ physicians to acquire corresponding information
 
-**R package for detecting differential modules from High-throughput expression profiles**   
-Dept. of Bioinformatics & Biostatistics, School of Life Science & Biotechnology, SJTU, China\
-* Trained in advanced use of R to implement biological network module-based model  
-* Formulated an R package to effectively combine models from different biological pathways
+## Additional Experience
 
-**LAMP-SERS on microfluidic chips (Team leader)**                                       
-Microfluidics Laboratory, University of Illinois at Chicago, United States  
-* Designed investigational project based on knowledge of microfluidics, loop-mediated isothermal  amplification(LAMP), gold-nanoprobe, and surface-enhanced Raman spectroscopy (SERS)  
-* Prepared gold-nanoprobe and LAMP experiments in collaboration with research team  
-* Analyzed experiment data obtained from SERS
+**Teaching Assistant, Data Science 1, Dept. of Biostatistics, Columbia University, New York, NY**  
+  
+* Facilitated outstanding support for a class of 150+ students and administered student-centered coaching, mentoring and development along with in-depth feedback to improve performance and abilities in data science skills
+  
+**Project Leader, Data Science 2, Dept. of Biostatistics, Columbia University, New York, NY**  
+  
+* Preprocessed the database (3700000 rows) and screened 9 features for further regression & classification analysis
+* Performed exploratory data analysis and data visualization to the dataset via ggplot2, plot.ly and Shiny in R
+* Evaluated the performance of different machine learning methods (Random Forest, SVM, Gradient Boosting, etc.)  
 
-**Meta-analysis based on mult-regression model for combing GWAS data**  
-Bio-X Institutes, SJTU, China  
-* Revised Meta-analysis methodology utilizing principles from multiple regression model and multivariate generalized least squares estimation  
-*	Conducted genome-wide association study(GWAS) data analysis using the improved method 
+**Research Assistant, Dept. of Bioinformatics & Biostatistics, SJTU, Shanghai, China**  
+  
+* Extracted and filtered phosphorylated protein data from CPTAC databases (10062 proteins, 51122 phosphosites)
+* Strategized on best usage of distance correlation model and successfully assessed model fit for research question
+* Applied the latest statistical model to the clinical data (77 patients) and analyzed results using R and Excel  
 
-### Internship Experience
+**Research Associate, Microfluidics Lab, University of Illinois at Chicago, Chicago, IL**  
+  
+* Earned a stellar reputation for designing investigational projects on microfluidics biomedical devices while closely coordinating with a team of 3, thus streamlining experimental processes and enhancing efficiency by 25%
 
-**PTA, IlluminStrategy, Illuminera, Shanghai, China**  
-* Conducted target data collection thorugh literature research and depth interviews of physicians  
-* Preformed data proceesing and analysiscontribute to the final report and presentation of each project
-
-**Intern, Life Science Dept., GE Healthcare, Shanghai, China**  
-* Familiarized with protein purification process; Practiced operating purification instrument (ÄKTA™ pure)  
-* Performed analysis on protein data extracted from the ÄKTA™ pure
-
-### Leadership Experience
+## Leadership Experience
 
 **Principal Trombone**, Columbia Univserivty Symphony Orchestra, Columbia University  
-**Vice President**, Work-study Dept., School Library, SJTU, China  
-**Arts and Sports Director**, School of Pharmacy, SJTU, China
+**Vice President**, Chinese Students & Scholars Association, Columbia University Medical Center 
 
-### Personal Skills  
-Data analysis and programming software: **SAS, R, MATLAB, SPSS and Python(in learing)**  
-Proficient in Microsoft package Languages: Mandarin (native) and English (fluent verbal and written)
+## Personal Skills  
+
+**Statistical & Computing software**: SAS, R, STATA, SPSS, SQL, Python, MATLAB, Mplus, Microsoft Office: Excel (VBA), Access and PowerPoint  
+**Languages** : Mandarin (native) and English (fluent)
 
 
 

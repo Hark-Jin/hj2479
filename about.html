@@ -11,14 +11,17 @@
 
 
 
-<title>About</title>
+<title>Resume</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -105,34 +108,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 45px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 </style>
 
@@ -169,6 +172,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -179,15 +277,32 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        
+        <li>
+  <a href="index.html">Home</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="about.html">About</a>
+  <a href="about.html">Resume</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research &amp; Project
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="publication.html">Publication</a>
+    </li>
+    <li>
+      <a href="https://harksoul.shinyapps.io/problem2/">Instart Shiny</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="mailto:&lt;hj2479@columbia.edu&gt;">
@@ -201,6 +316,12 @@ $(document).ready(function () {
      
   </a>
 </li>
+<li>
+  <a href="https://www.linkedin.com/in/he-jin2479/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -210,65 +331,85 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
+<h1 class="title toc-ignore">Resume</h1>
 
 </div>
 
 
-<div id="about-he-jin" class="section level1">
-<h1>About He Jin</h1>
-<div id="education-background" class="section level3">
-<h3>Education background</h3>
-<p><strong>Master of Science, Columbia University, Mailman School of Public Health, New York</strong><br />
-Major: Biostatisitcs (Theory &amp; Methods track)<br />
-<strong>Bachelor of Science, Shanghai Jiao Tong University (SJTU), Shanghai, China</strong><br />
+<div id="education" class="section level2">
+<h2>Education</h2>
+<p><strong>Master of Science, Columbia University, Mailman School of Public Health, New York, NY, 2019</strong><br />
+Major: Biostatisitcs (Theory &amp; Methods track); GPA: 3.75/4.0</p>
+<p><strong>Bachelor of Science, Shanghai Jiao Tong University (SJTU), Shanghai, China, 2017</strong><br />
 Major: Pharmacy, Minor: Musicology; GPA: 3.52/4.0</p>
 </div>
-<div id="research-experience" class="section level3">
-<h3>Research Experience</h3>
-<p><strong>Risk assessment of cancer based on the phosphorylation of specific protein</strong><br />
-Dept. of Bioinformatics &amp; Biostatistics, School of Life Science &amp; Biotechnology, SJTU, China<br />
-* Strategized on best usage of distance correlation model; Assessed model fit for research question<br />
-* Extracted phosphorylated protein and cancer data from different databases<br />
-* Applied distance correlation model to the data in R and cooperatively analyzed descriptive results</p>
-<p><strong>R package for detecting differential modules from High-throughput expression profiles</strong><br />
-Dept. of Bioinformatics &amp; Biostatistics, School of Life Science &amp; Biotechnology, SJTU, China<br />
-* Trained in advanced use of R to implement biological network module-based model<br />
-* Formulated an R package to effectively combine models from different biological pathways</p>
-<p><strong>LAMP-SERS on microfluidic chips (Team leader)</strong><br />
-Microfluidics Laboratory, University of Illinois at Chicago, United States<br />
-* Designed investigational project based on knowledge of microfluidics, loop-mediated isothermal amplification(LAMP), gold-nanoprobe, and surface-enhanced Raman spectroscopy (SERS)<br />
-* Prepared gold-nanoprobe and LAMP experiments in collaboration with research team<br />
-* Analyzed experiment data obtained from SERS</p>
-<p><strong>Meta-analysis based on mult-regression model for combing GWAS data</strong><br />
-Bio-X Institutes, SJTU, China<br />
-* Revised Meta-analysis methodology utilizing principles from multiple regression model and multivariate generalized least squares estimation<br />
-* Conducted genome-wide association study(GWAS) data analysis using the improved method</p>
+<div id="professional-experience" class="section level2">
+<h2>Professional Experience</h2>
+<p><strong>Research Assistant – Data Analyst, School of Nursing, Columbia University, New York, NY</strong></p>
+<ul>
+<li>Utilized descriptive statistics and statistical models in analyzing survey and CMS (Medicaid &amp; Medicare) data using SAS &amp; STATA</li>
+<li>Streamlined and improved performance and accuracy of questionnaire using factor analysis(EFA, CFA) and IRT (Item Response Theory) model</li>
+<li>Summarized exhibits, tables and figures in Excel using Pivot Tables and prepared the final paper for review</li>
+<li>Recognized for formatting 20+ research papers in alignment with APA, AMA and Chicago Manual of Style guidelines</li>
+<li>Served as a main contributor in drafting protocols for data collection and data processing methods and collaborated with other researchers on data management, statistical analysis plan (SAP) and manuscript preparation</li>
+</ul>
+<p><strong>Modeling Analyst Intern, BroadRiver Asset Management, L.P., New York, NY</strong></p>
+<ul>
+<li>Expertly supported a project team of 7 to develop a medical questionnaire using qualitative and quantitative methods</li>
+<li>Conducted literature review of 122 articles on long-term mortality of seniors based on certain diseases &amp; lifestyles and designed 327 questions with supporting scoring algorithm to estimate the survival rate of insured client in Python</li>
+<li>Managed and optimized large-scale life settlement dataset to track client outcomes and build portfolio efficiently</li>
+<li>Manipulated and analyzed third-party underwriting data to facilitate strategic decision and save cost for the firm<br />
+</li>
+<li>Skillfully performed survival modeling to identify differences between clients’ self-reported and actual health status</li>
+</ul>
+<p><strong>Assistant Analyst, IlluminHealth, The Illuminera Group, Shanghai, China</strong></p>
+<ul>
+<li>Conducted target data collection routinely through literature and database in each internal and external project<br />
+</li>
+<li>Synthesized different types of data (continuous &amp; categorical) and performed data analysis using Excel with VBA<br />
+</li>
+<li>Assisted the final report and presentation of different market research projects by designing PowerPoint slides</li>
+<li>Drafted questionnaires to ensure alignment with customized requirements of multiple clients from various healthcare companies while participated in the in-depth interviews with 5+ physicians to acquire corresponding information</li>
+</ul>
 </div>
-<div id="internship-experience" class="section level3">
-<h3>Internship Experience</h3>
-<p><strong>PTA, IlluminStrategy, Illuminera, Shanghai, China</strong><br />
-* Conducted target data collection thorugh literature research and depth interviews of physicians<br />
-* Preformed data proceesing and analysiscontribute to the final report and presentation of each project</p>
-<p><strong>Intern, Life Science Dept., GE Healthcare, Shanghai, China</strong><br />
-* Familiarized with protein purification process; Practiced operating purification instrument (ÄKTA™ pure)<br />
-* Performed analysis on protein data extracted from the ÄKTA™ pure</p>
+<div id="additional-experience" class="section level2">
+<h2>Additional Experience</h2>
+<p><strong>Teaching Assistant, Data Science 1, Dept. of Biostatistics, Columbia University, New York, NY</strong></p>
+<ul>
+<li>Facilitated outstanding support for a class of 150+ students and administered student-centered coaching, mentoring and development along with in-depth feedback to improve performance and abilities in data science skills</li>
+</ul>
+<p><strong>Project Leader, Data Science 2, Dept. of Biostatistics, Columbia University, New York, NY</strong></p>
+<ul>
+<li>Preprocessed the database (3700000 rows) and screened 9 features for further regression &amp; classification analysis</li>
+<li>Performed exploratory data analysis and data visualization to the dataset via ggplot2, plot.ly and Shiny in R</li>
+<li>Evaluated the performance of different machine learning methods (Random Forest, SVM, Gradient Boosting, etc.)</li>
+</ul>
+<p><strong>Research Assistant, Dept. of Bioinformatics &amp; Biostatistics, SJTU, Shanghai, China</strong></p>
+<ul>
+<li>Extracted and filtered phosphorylated protein data from CPTAC databases (10062 proteins, 51122 phosphosites)</li>
+<li>Strategized on best usage of distance correlation model and successfully assessed model fit for research question</li>
+<li>Applied the latest statistical model to the clinical data (77 patients) and analyzed results using R and Excel</li>
+</ul>
+<p><strong>Research Associate, Microfluidics Lab, University of Illinois at Chicago, Chicago, IL</strong></p>
+<ul>
+<li>Earned a stellar reputation for designing investigational projects on microfluidics biomedical devices while closely coordinating with a team of 3, thus streamlining experimental processes and enhancing efficiency by 25%</li>
+</ul>
 </div>
-<div id="leadership-experience" class="section level3">
-<h3>Leadership Experience</h3>
+<div id="leadership-experience" class="section level2">
+<h2>Leadership Experience</h2>
 <p><strong>Principal Trombone</strong>, Columbia Univserivty Symphony Orchestra, Columbia University<br />
-<strong>Vice President</strong>, Work-study Dept., School Library, SJTU, China<br />
-<strong>Arts and Sports Director</strong>, School of Pharmacy, SJTU, China</p>
+<strong>Vice President</strong>, Chinese Students &amp; Scholars Association, Columbia University Medical Center</p>
 </div>
-<div id="personal-skills" class="section level3">
-<h3>Personal Skills</h3>
-<p>Data analysis and programming software: <strong>SAS, R, MATLAB, SPSS and Python(in learing)</strong><br />
-Proficient in Microsoft package Languages: Mandarin (native) and English (fluent verbal and written)</p>
-</div>
+<div id="personal-skills" class="section level2">
+<h2>Personal Skills</h2>
+<p><strong>Statistical &amp; Computing software</strong>: SAS, R, STATA, SPSS, SQL, Python, MATLAB, Mplus, Microsoft Office: Excel (VBA), Access and PowerPoint<br />
+<strong>Languages</strong> : Mandarin (native) and English (fluent)</p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

@@ -1,0 +1,13 @@
+
+h1.title {
+	text-align: left;
+	color: white;
+	margin-top: 20px;
+	margin-left: auto;
+}
+
+p {
+  font-family: "Arial";
+	font-size: 15px;
+  margin-left: auto;
+}

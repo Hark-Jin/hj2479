@@ -1,0 +1,8 @@
+---
+title: "Publication"
+output:
+  html_document:
+    toc: false
+---
+
+* Poghosyan, L., Ghaffari, A. and **Jin, H.**. State Policy Change and Organizational Response: Expansion of Nurse Practitioner Scope of Practice in New York State. **Health Affairs** Submitted

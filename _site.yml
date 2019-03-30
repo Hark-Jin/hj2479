@@ -1,19 +1,26 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Home"
+  left:
+    - text: "Home"
+      href: index.html
   right:
-    - text: "About"
+    - text: "Resume"
       href: about.html
+    - text: "Research & Project"
+      menu:
+        - text: "Publication"
+          href: publication.html
+        - text: "Instart Shiny"
+          href: https://harksoul.shinyapps.io/problem2/
     - icon: fa-envelope fa-lg
       href: mailto:<hj2479@columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/Harksoul
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/
+      href: https://www.linkedin.com/in/he-jin2479/
 output:
   html_document:
     toc: true
     toc_float: true
     theme: yeti
-    css: style.css

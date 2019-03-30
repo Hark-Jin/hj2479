@@ -1,22 +1,32 @@
 ---
-title: "He Jin!"
+title: "He Jin, M.S"
+output:
+  html_document:
+    toc: false
+    css: style.css
 ---
+<body background="./back.jpg">
+<div style= "float:left; position : relative; top: 0px; width : 400px; height : 200px;">
 
-### This is He Jin's webiste!
+<img src="./IMG_7539.jpg" width="75%" class="left">
+</div>
 
-Please have a look 
-This [about page](about.html) introduce something about me
+<div style= "float:left; position : relative; top: 0px; width : 500px; height : 200px; text-align: justify; text-justify: inter-word;">
 
-### Let's have a link
+<font size= 3px>
+**He Jin**  
+**Master of Science Candidate in Biostatistics**  
+**Columbia University Mailman School of Public Health**
+</font>
 
-My favorite website is 
-[Baidu](http://www.baidu.com),
-which is the **Google** in China
+As a result-driven, analytical, and process-focused Statistical Analysis & Data Science Entry-level Professional, I offer experience in data manipulation, biostatistical methods, statistical analysis & machine learning, market research, project management & coordination, and delivering reports. I exhibit a proven track record in utilizing cutting-edge data analysis techniques, while implementing quantitative research and data visualization best practices through R, SAS and Python. I also exemplify excellent ability to compile and organize healthcare database through SQL while analyzing data to assist in delivering optimal healthcare management and decision making.  
 
-### Here's a puppy:
+Now I am actvitly looking for full time opportunities in biostatsitics, health related data science and data analysis. Please feel free to contact me if you think there is a postion that might be a good fit for me.
 
-<img src="./IMG_7210.jpg" style="width:75%">
+This [resume](about.html) page introduce something more about me, if you prefer a pdf veriosn resume, please click [here](resume.pdf), if you are looking for my most updated CV,  please [email](mailto:<hj2479@columbia.edu>) me directly
+</font>
+</div>
 
-I love this puppy. It's so cute!
+
 
 
