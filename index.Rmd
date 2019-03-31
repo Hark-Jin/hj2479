@@ -6,12 +6,12 @@ output:
     css: style.css
 ---
 <body background="./back.jpg">
-<div style= "float:left; position : relative; top: 0px; width : 400px; height : 200px;">
+<div style= "float:left; position : relative; top: 0px; width : 400px; height : 500px;">
 
-<img src="./IMG_7539.jpg" width="75%" class="left">
+<img src="./IMG_7539.jpg" width="80%" class="left">
 </div>
 
-<div style= "float:left; position : relative; top: 0px; width : 500px; height : 200px; text-align: justify; text-justify: inter-word;">
+<div style= "float:left; position : relative; top: 0px; width : 500px; height : 500px; text-align: justify; text-justify: inter-word;">
 
 <font size= 3px>
 **He Jin**  
