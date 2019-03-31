@@ -6,12 +6,13 @@ output:
     css: style.css
 ---
 <body background="./back.jpg">
+<div style="width:900px;">
 <div style= "float:left; position : relative; top: 0px; width : 400px; height : 500px;">
 
 <img src="./IMG_7539.jpg" width="80%" class="left">
 </div>
 
-<div style= "position: relative; top: 0px; width : auto; height : 500px; text-align: justify; text-justify: inter-word;">
+<div style= "position: relative; top: 0px; width : auto; height : 500px; right: 20px; text-align: justify; text-justify: inter-word;">
 
 <font size= 3px>
 **He Jin**  
@@ -25,6 +26,7 @@ Now I am actvitly looking for full time opportunities in biostatsitics, health r
 
 This [resume](about.html) page introduce something more about me, if you prefer a pdf veriosn resume, please click [here](resume.pdf), if you are looking for my most updated CV,  please [email](mailto:<hj2479@columbia.edu>) me directly
 </font>
+</div>
 </div>
 
 
