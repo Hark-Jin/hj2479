@@ -1,5 +1,5 @@
 ---
-title: "He Jin, M.S"
+title: "He Jin, M.S."
 output:
   html_document:
     toc: false
@@ -22,9 +22,9 @@ output:
 
 As a result-driven, analytical, and process-focused Statistical Analysis & Data Science Entry-level Professional, I offer experience in data manipulation, biostatistical methods, statistical analysis & machine learning, market research, project management & coordination, and delivering reports. I exhibit a proven track record in utilizing cutting-edge data analysis techniques, while implementing quantitative research and data visualization best practices through R, SAS and Python. I also exemplify excellent ability to compile and organize healthcare database through SQL while analyzing data to assist in delivering optimal healthcare management and decision making.  
 
-Now I am actvitly looking for full time opportunities in biostatsitics, health related data science and data analysis. Please feel free to contact me if you think there is a postion that might be a good fit for me.
+Now I am actively looking for full-time opportunities in biostatistics & statistics, health-related data science & data analysis, and Health Economics and Outcome Research (HEOR) Analysis. Please feel free to contact me if you think there is a position that might be a good fit for me.
 
-This [resume](about.html) page introduce something more about me, if you prefer a pdf veriosn resume, please click [here](resume.pdf), if you are looking for my most updated CV,  please [email](mailto:<hj2479@columbia.edu>) me directly
+This [resume](about.html) page introduce something more about me, if you prefer a pdf version resume, please click [here](resume.pdf), if you are looking for my most updated CV,  please [email](mailto:<hj2479@columbia.edu>) me directly
 </font>
 </div>
 </div>
